@@ -1,0 +1,152 @@
+** start of undefined **
+
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta     http-equiv="X-UA-Compatible"                   content="IE=edge">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="./styles.css" >
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title" >Quincy Larson</h1>
+      <h3>
+        The teacher and school director from Oklahoma who started learning how to code using free online courses and attending hackathons and created freeCodeCamp.
+      </h3>
+    <div class="img-container" id="img-div">
+      <img
+        src="https://pbs.twimg.com/profile_images/1377353524661604356/DIMdJND1_400x400.jpg"
+        alt="quincy"
+        class="quincy-image"
+        id="image"
+    />
+      <div class="caption" id="img-caption">
+      After working as a software engineer, he founded freeCodeCamp.org to help other busy adults also learn to code and transition into tech careers.
+      </div>
+    <div class="life">      
+      <p class="life-header bold">Here's a bit more about his life:</p>
+    <ul id="tribute-info">
+      <li><span class="bold">He was born in Oklahoma and grew up in Oklahoma City during the 1990s.</span></li>
+      <li><span class="bold">He dropped out of high school a while after his grandmother died, and lived in his car</span></li>
+      <li><span class="bold">Eventually, he got a job at Taco Bell and worked there for a while, until he realized that he wanted more than that.</span></li>
+      <li>He enrolled in the cheapest state university he could find to study liberal arts, started doing odd jobs as a newspaper reporter and giving tuition to homeschoolers.<span class="bold"></span></li>
+      <li><span class="bold">During the early 2000s, he enrolled in an international graduate program and travelled to China, where he studied and worked as a teacher for four years. </span>
+      <li><span class="bold">When he was 26, he returned to America with his wife and got a job as a school director for an intensive English program on a university campus.</span>
+      <li><span class="bold">At age 31, he started learning to code using free online courses and attending hackathons.</span>   
+      <li><span class="bold">Eventually he founded freeCodeCamp to teach other adults how to code and transition into tech careers.</span>
+      </ul>
+      <div class="quote-container">
+        <p class="quote">"freeCodeCamp is my effort to correct the extremely inefficient and circuitous way I learned to code. I'm committing my career and the rest of my life towards making this process as efficient and painless as possible. All those things that made learning to code a nightmare to me are things that we are trying to fix with freeCodeCamp."</p>
+      </div>
+    </div>  
+      <h3>If you have time, you should read this interview he gave in 2019
+      <a
+        id="tribute-link"
+        href="https://www.freecodecamp.org/news/software-engineering-daily-quincy-larson-freecodecamp-interview/"
+        target="_blank"
+        >Interview article</a
+        >
+      </h3>    
+      </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 20px;
+  font-family: Arial;
+
+}
+
+h3 {
+  font-size: 20px;
+  background-color: #13151f;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+body {
+  background-color: #03050f;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.img-container {
+  margin: auto;
+  padding: 30px;
+  background-color: #002;
+
+}
+
+.quincy-image {
+  object-fit: contain;
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  
+}
+
+.caption {
+  padding-top: 5px;
+
+}
+
+.life {
+  text-align: left;
+  padding: 30px 70px;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #002;
+
+}
+
+.life-header {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial;
+  padding: 30px;
+
+}
+
+.bold {
+  font-weight: bold;
+
+}
+
+li {
+  margin: 20px;
+
+}
+
+.quote {
+  margin: 30px 30px 5px;
+  font-style: italic;
+
+}
+
+.quote-author {
+  text-indent: 30px;
+
+}
+
+a {
+  color: #99f;
+}
+
+** end of undefined **
+
